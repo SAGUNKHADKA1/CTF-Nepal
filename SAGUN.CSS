@@ -1,38 +1,70 @@
-.HUI{
-font-size: 26PX;
+
+
+
+ul{display:flex;
+  justify-content:space-around ;
+
+  padding: 20px;
 
 
 }
 
+li{
+  border:solid 3px ;
+  list-style: none;
+  padding: 2px;
+  color: rgb(9, 0, 138);
+  
+  font-size: 30px;
+}
 
-
-
-
+li:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
 
 .den{
-    border: solid;
-    border-radius: 100%;
+border: solid;
+border-radius: 100%;
+
 }
 
-.icon-bar {
-    width: 90px;
-    background-color: #555;
-  }
-  
-  .icon-bar a {
-    display: flex;
-    flex-flow: column-reverse;
-    text-align: center;
-    padding: 23px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 23px;
-  }
-  
-  .icon-bar a:hover {
-    background-color: #000;
-  }
-  
-  .active {
-    background-color: #04AA6D;}
-    display:flex
+.HUI{
+  font-size: 30px;
+  border:solid;
+  font-family: cursive;
+  background-color: lightblue;
+}
+
+
+.dd{
+font-size: 76px;
+text-align: center;
+}
+
+.ee{
+font-size: 30px;
+text-align: center;
+
+}
+ol{
+  font-size: 30px;
+}
+
+.wow{
+  text-align: center;
+}
+
+.tu{
+  text-align: center;
+}
+
+.we{
+display: flex;
+
+
+
+
+
+}
